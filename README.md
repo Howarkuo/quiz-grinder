@@ -2,13 +2,23 @@
 
 A lightweight, serverless web application for practicing multiple-choice questions. This tool runs entirely in your browser using **Vue.js** and **LocalStorage** to track your progress without the need for a backend.
 ![web view](web.png)
+
+## 🛠 Credits
+This application uses the **Quiz Grinder** engine developed by **Jeffrey Sun (Darkthread)**. 
+
+* **Original Source:** [darkthread.github.io](https://github.com/darkthread/darkthread.github.io/tree/master/quiz-grinder)
+* **Usage Instructions (Original):** [Darkthread Blog](https://blog.darkthread.net/blog/quiz-grinder/)
+
+*Note: The UI and content have been translated into English for this specific implementation.*
+
+---
+
 ## 🛠 Features
 
-* **Direct Navigation:** Jump to specific questions instantly using the "Go To" input.
 * **Progress Persistence:** Your current question index and "Incorrect Questions" list are saved automatically in your browser's `localStorage`.
 * **Incorrect List:** Any question you get wrong is added to a dynamic list at the bottom for quick retries.
-* **AI Integration:** One-click buttons to format questions/answers into prompts for AI (Gemini, ChatGPT) for detailed explanations.
-* **Mobile Responsive:** Clean, vanilla CSS layout designed for both desktop and mobile study sessions.
+
+
 
 ## 🚀 How to Run
 
