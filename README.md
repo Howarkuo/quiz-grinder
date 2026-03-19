@@ -1,7 +1,7 @@
 # 🚀 Quiz Grinder
 
 A lightweight, serverless web application for practicing multiple-choice questions. This tool runs entirely in your browser using **Vue.js** and **LocalStorage** to track your progress without the need for a backend.
-
+![web view](web.jpeg)
 ## 🛠 Features
 
 * **Direct Navigation:** Jump to specific questions instantly using the "Go To" input.
