@@ -54,7 +54,7 @@ const questions = [
     answer: 0 // Index of the correct option
   }
 ];
-
+```
 
 ---
 
