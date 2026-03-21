@@ -54,3 +54,36 @@ const questions = [
     answer: 0 // Index of the correct option
   }
 ];
+
+
+---
+
+## ➕ How to Generate New Quizzes
+To create your own quiz modules, paste your notes or text into an AI with this prompt:
+
+```text
+Please read the content provided and generate 10 multiple-choice questions for me. 
+Strictly follow the output format below. Each question must include:
+- N (Question Number)
+- Q (Question Text)
+- A (The correct answer: A, B, C, or D)
+- H (Explanation or Hint)
+- O (Options array, where each item must follow the 'A) Text' format)
+
+Please provide the output directly as a JavaScript code block:
+
+var quizName = 'Unit Test Name';
+var quizData = [
+  {
+    "N": 1,
+    "Q": "Example Question?",
+    "A": "B",
+    "H": "This is the explanation for the answer.",
+    "O": [
+      "A) Option One",
+      "B) Option Two",
+      "C) Option Three",
+      "D) Option Four"
+    ]
+  }
+];
